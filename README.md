@@ -2,54 +2,54 @@
 
 Below is a template provided for use when building your README file for students.
 
-# Project Title
+# Fashion Forward Forecasting
 
-Project description goes here.
+The project is about the prediction of user recommendations for fashion products, 
+The database is a .csv containing user reviews and recommendations for different fashion items.
+
+The prediciton is implemented in a Jupyter notebook containing
+-  EDA
+-  Feature generation
+-  Model traiing
+-  Hyperparameter tuning
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+To get started:
+-   Copy the repository
+-   Create a virtual environment and install the requirements.txt list
+-   Run the Jupyter notebook "Fashion_forward_casting.ipynb"
 
 ### Dependencies
 
 ```
-Examples here
+scikit-learn
+pandas
+spacy
+notebook
+seaborn
+matplotlib
+xgboost
 ```
 
 ### Installation
 
 Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
 ```
-Give an example here
-```
+# Clone the project repository
+git clone 
 
-## Testing
+# Navigate into the repo directory
+cd dsnd-pipelines-project
 
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
+# Install requirements
+python -m pip install -r requirements.txt
 ```
 
 ## Project Instructions
 
-This section should contain all the student deliverables for this project.
+The project deliverables are:
+- Jupyter notebook "Fashion_forward_casting.ipynb
+- requirements.txt
+- reviews.csv
 
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
-
-[License](LICENSE.txt)
