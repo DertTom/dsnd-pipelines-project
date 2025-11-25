@@ -4,4 +4,3 @@ spacy
 notebook
 seaborn
 matplotlib
-xgboost
