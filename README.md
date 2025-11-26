@@ -29,7 +29,6 @@ spacy
 notebook
 seaborn
 matplotlib
-xgboost
 ```
 
 ### Installation
@@ -37,13 +36,14 @@ xgboost
 Step by step explanation of how to get a dev environment running.
 ```
 # Clone the project repository
-git clone 
+git clone https://github.com/DertTom/dsnd-pipelines-project.git
 
 # Navigate into the repo directory
 cd dsnd-pipelines-project
 
 # Install requirements
 python -m pip install -r requirements.txt
+download and install en_core_web_sm
 ```
 
 ## Project Instructions
@@ -51,5 +51,5 @@ python -m pip install -r requirements.txt
 The project deliverables are:
 - Jupyter notebook "Fashion_forward_casting.ipynb
 - requirements.txt
-- reviews.csv
+- data/reviews.csv
 
